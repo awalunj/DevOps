@@ -1,0 +1,11 @@
+---
+apiVersion:
+kind:
+metadata:
+spec:
+  minReplicas:
+  maxReplicas:
+  metrics:
+    - type: Resource
+      resources: 
+      
