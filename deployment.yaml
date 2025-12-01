@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: pyapp
-          image: us-central1.docker.pkg.dev/searce-playground-v2/alisha-test-repo:v1
+          image: us-central1-docker.pkg.dev/searce-playground-v2/alisha-test-repo:v1
           ports: 
             - containerPort: 8080
