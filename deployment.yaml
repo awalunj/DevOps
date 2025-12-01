@@ -13,6 +13,7 @@ spec:
       labels:
         app: pyapp
     spec:
+      serviceAccount: pyapp-sa
       containers:
         - name: pyapp
           image: us-central1-docker.pkg.dev/searce-playground-v2/alisha-test-repo:v1
