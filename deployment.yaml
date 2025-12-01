@@ -1,4 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: pyapp-deployment
+  namespace: pyapp
 spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pyapp
+template:
+  spec:
+    containers:
+      - name: pyapp
+        image:
+        ports:
+          - containerPort: 8080
